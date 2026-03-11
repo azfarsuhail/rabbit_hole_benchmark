@@ -1,87 +1,121 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 import os
 
-def generate_visualizations():
-    print("Loading benchmark data...")
+def generate_research_plots():
+    # Load Data
     try:
         df = pd.read_csv("data/benchmark_results.csv")
     except FileNotFoundError:
-        print("Error: Could not find data/benchmark_results.csv. Run the benchmark first!")
+        print("Error: benchmark_results.csv not found in data/ folder.")
         return
 
-    # Create a folder for the graphs
+    # Create output directory
     os.makedirs("data/plots", exist_ok=True)
+    sns.set_theme(style="whitegrid", context="paper")
     
-    # Set the visual style for research-paper quality graphs
-    sns.set_theme(style="whitegrid")
+    # ---------------------------------------------------------
+    # PLOT 1: Cumulative Token Tax (Line Graph)
+    # PROVES: Long-term cost scalability.
+    # ---------------------------------------------------------
+    plt.figure(figsize=(10, 6))
+    plt.plot(df['task_id'], df['baseline_steps_taken'].cumsum(), label='Baseline (Unanchored)', color='#e74c3c', lw=2)
+    plt.plot(df['task_id'], df['anchored_steps_taken'].cumsum(), label='Anchored (Veritas)', color='#3498db', lw=2)
+    plt.fill_between(df['task_id'], df['anchored_steps_taken'].cumsum(), df['baseline_steps_taken'].cumsum(), color='gray', alpha=0.15, label='Wasted Compute Area')
+    plt.title('Figure 1: Cumulative Computational Divergence', fontsize=14)
+    plt.xlabel('Query Sequence')
+    plt.ylabel('Total Cumulative Tool Calls')
+    plt.legend()
+    plt.savefig('data/plots/01_cumulative_tax.png', dpi=300)
 
-    # --- PLOT 1: The Token Tax (Average Steps Taken) ---
+    # ---------------------------------------------------------
+    # PLOT 2: Step Distribution (Histogram)
+    # PROVES: Reliability. High steps = "Rabbit Hole" failures.
+    # ---------------------------------------------------------
+    plt.figure(figsize=(10, 6))
+    plot_data = pd.melt(df[['baseline_steps_taken', 'anchored_steps_taken']], var_name='Agent', value_name='Steps')
+    sns.countplot(data=plot_data, x='Steps', hue='Agent', palette='Set2')
+    plt.title('Figure 2: Reliability Distribution (Tool Call Frequency)', fontsize=14)
+    plt.xlabel('Number of Steps (Tool Calls)')
+    plt.ylabel('Frequency (Count)')
+    plt.savefig('data/plots/02_step_distribution.png', dpi=300)
+
+    # ---------------------------------------------------------
+    # PLOT 3: Latency Density (KDE Plot)
+    # PROVES: Speed consistency.
+    # ---------------------------------------------------------
+    plt.figure(figsize=(10, 6))
+    sns.kdeplot(df['baseline_latency_sec'], label='Baseline', fill=True, color='#e74c3c')
+    sns.kdeplot(df['anchored_latency_sec'], label='Anchored', fill=True, color='#3498db')
+    plt.title('Figure 3: Response Latency Probability Density', fontsize=14)
+    plt.xlabel('Latency (Seconds)')
+    plt.ylabel('Density')
+    plt.savefig('data/plots/03_latency_density.png', dpi=300)
+
+    # ---------------------------------------------------------
+    # PLOT 4: Box Plot of Latency (Outlier Detection)
+    # PROVES: Anchoring prevents "Spiral" events.
+    # ---------------------------------------------------------
     plt.figure(figsize=(8, 6))
-    steps_means = [df['baseline_steps_taken'].mean(), df['anchored_steps_taken'].mean()]
-    
-    # Using 'hue' and setting 'legend=False' is the modern Seaborn standard to avoid warnings
-    ax = sns.barplot(
-        x=['Baseline Agent', 'Anchored Agent'], 
-        y=steps_means, 
-        hue=['Baseline Agent', 'Anchored Agent'], 
-        palette=['#ff9999', '#66b3ff'], 
-        legend=False
-    )
-    plt.title('Average Tool Calls per Query (The "Token Tax")', fontsize=14, pad=15)
-    plt.ylabel('Average Number of Steps', fontsize=12)
-    
-    # Add exact numbers on top of the bars
-    for i, v in enumerate(steps_means):
-        ax.text(i, v + 0.05, str(round(v, 2)), ha='center', fontsize=12, fontweight='bold')
-        
-    plt.savefig('data/plots/01_token_tax.png', dpi=300, bbox_inches='tight')
-    plt.close()
+    sns.boxplot(data=plot_data, x='Agent', y='Steps', palette='Pastel1')
+    plt.title('Figure 4: Variance and Outlier Analysis', fontsize=14)
+    plt.savefig('data/plots/04_step_variance.png', dpi=300)
 
-    # --- PLOT 2: The Speed Penalty (Latency) ---
+    # ---------------------------------------------------------
+    # PLOT 5: Distraction Rate % (Bar Chart)
+    # PROVES: Direct success metric.
+    # ---------------------------------------------------------
     plt.figure(figsize=(8, 6))
-    latency_means = [df['baseline_latency_sec'].mean(), df['anchored_latency_sec'].mean()]
-    ax = sns.barplot(
-        x=['Baseline Agent', 'Anchored Agent'], 
-        y=latency_means, 
-        hue=['Baseline Agent', 'Anchored Agent'], 
-        palette=['#ffcc99', '#99ff99'], 
-        legend=False
-    )
-    plt.title('Average Response Latency', fontsize=14, pad=15)
-    plt.ylabel('Seconds', fontsize=12)
+    distraction = [
+        (df['baseline_steps_taken'] > 1).mean() * 100,
+        (df['anchored_steps_taken'] > 1).mean() * 100
+    ]
+    sns.barplot(x=['Baseline', 'Anchored'], y=distraction, palette='magma')
+    plt.title('Figure 5: Total Distraction Rate (%)', fontsize=14)
+    plt.ylabel('Percentage of Queries with Excess Tool Usage')
+    plt.savefig('data/plots/05_distraction_rate.png', dpi=300)
 
-    for i, v in enumerate(latency_means):
-        ax.text(i, v + 0.1, f"{round(v, 2)}s", ha='center', fontsize=12, fontweight='bold')
+    # ---------------------------------------------------------
+    # PLOT 6: Efficiency Ratio (Scatter Plot)
+    # PROVES: Latency vs. Steps correlation.
+    # ---------------------------------------------------------
+    plt.figure(figsize=(10, 6))
+    plt.scatter(df['baseline_steps_taken'], df['baseline_latency_sec'], alpha=0.3, label='Baseline', color='#e74c3c')
+    plt.scatter(df['anchored_steps_taken'], df['anchored_latency_sec'], alpha=0.3, label='Anchored', color='#3498db')
+    plt.title('Figure 6: Step-to-Latency Correlation', fontsize=14)
+    plt.xlabel('Steps Taken')
+    plt.ylabel('Latency (sec)')
+    plt.legend()
+    plt.savefig('data/plots/06_efficiency_scatter.png', dpi=300)
 
-    plt.savefig('data/plots/02_latency_penalty.png', dpi=300, bbox_inches='tight')
-    plt.close()
+    # ---------------------------------------------------------
+    # PLOT 7: Rolling Average Latency
+    # PROVES: System stability over long-duration runs.
+    # ---------------------------------------------------------
+    plt.figure(figsize=(10, 6))
+    df['baseline_rolling'] = df['baseline_latency_sec'].rolling(window=20).mean()
+    df['anchored_rolling'] = df['anchored_latency_sec'].rolling(window=20).mean()
+    plt.plot(df['task_id'], df['baseline_rolling'], label='Baseline (20-query Moving Avg)', color='#e74c3c')
+    plt.plot(df['task_id'], df['anchored_rolling'], label='Anchored (20-query Moving Avg)', color='#3498db')
+    plt.title('Figure 7: Temporal Latency Stability', fontsize=14)
+    plt.ylabel('Seconds')
+    plt.legend()
+    plt.savefig('data/plots/07_temporal_stability.png', dpi=300)
 
-    # --- PLOT 3: Distraction Rate ---
-    # Calculates how often the agent took more than 1 step (implying it chased a bait tool)
-    baseline_distracted = (df['baseline_steps_taken'] > 1).mean() * 100
-    anchored_distracted = (df['anchored_steps_taken'] > 1).mean() * 100
+    # ---------------------------------------------------------
+    # PLOT 8: Error Delta (Heatmap Style)
+    # PROVES: Where specifically the Anchored agent saved resources.
+    # ---------------------------------------------------------
+    plt.figure(figsize=(12, 4))
+    delta = (df['baseline_steps_taken'] - df['anchored_steps_taken']).values.reshape(10, 50)
+    sns.heatmap(delta, cmap='RdYlGn', center=0, cbar_kws={'label': 'Steps Saved'})
+    plt.title('Figure 8: Step-Saving Heatmap (Spatial Delta Analysis)', fontsize=14)
+    plt.xlabel('Query Batch')
+    plt.savefig('data/plots/08_savings_heatmap.png', dpi=300)
 
-    plt.figure(figsize=(8, 6))
-    distraction_rates = [baseline_distracted, anchored_distracted]
-    ax = sns.barplot(
-        x=['Baseline Agent', 'Anchored Agent'], 
-        y=distraction_rates, 
-        hue=['Baseline Agent', 'Anchored Agent'], 
-        palette=['#c2c2f0', '#ffb3e6'], 
-        legend=False
-    )
-    plt.title('Distraction Rate (% of queries using excess tools)', fontsize=14, pad=15)
-    plt.ylabel('Percentage (%)', fontsize=12)
-
-    for i, v in enumerate(distraction_rates):
-        ax.text(i, v + 1, f"{round(v, 1)}%", ha='center', fontsize=12, fontweight='bold')
-
-    plt.savefig('data/plots/03_distraction_rate.png', dpi=300, bbox_inches='tight')
-    plt.close()
-
-    print("Success! High-resolution graphs have been saved to the 'data/plots' folder.")
+    print("\n[SUCCESS] 8 Research-grade plots generated in data/plots/")
 
 if __name__ == "__main__":
-    generate_visualizations()
+    generate_research_plots()
