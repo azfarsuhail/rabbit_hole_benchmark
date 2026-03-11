@@ -1,0 +1,8 @@
+# requirements.txt
+langchain
+langchain-core
+langchain-google-genai # depending on your API choice
+chromadb              # Local vector database
+sentence-transformers # Free local embeddings (HuggingFace)
+pandas                # For handling the CSV datasets
+python-dotenv         # For hiding your API keys

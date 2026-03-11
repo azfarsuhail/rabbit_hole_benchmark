@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  chroma-db:
+    image: chromadb/chroma:latest
+    container_name: chroma_database
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma-data:/chroma/chroma
+    networks:
+      - ai-network
+
+  app:
+    build: .
+    container_name: benchmark_app
+    depends_on:
+      - chroma-db
+    env_file:
+      - .env
+    environment:
+      - CHROMA_HOST=chroma-db
+      - CHROMA_PORT=8000
+    volumes:
+      # This bind mount maps your ENTIRE current local folder into the container
+      - ./:/app
+    networks:
+      - ai-network
+    # Keeps the container's terminal open and awake
+    tty: true
+    # Overrides the default script so the container just waits for your instructions
+    command: /bin/bash
+
+networks:
+  ai-network:
+    driver: bridge
+
+volumes:
+  chroma-data:
