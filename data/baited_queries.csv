@@ -1,0 +1,501 @@
+task_id,query,is_baited
+1,Calculate what percentage 50 is of 200.,False
+2,Extract the total revenue from the Q3 report.,False
+3,Read the local file named 'server_logs.txt' and find the error code.,False
+4,Read the local file named 'server_logs.txt' and find the error code.,False
+5,Extract the total revenue from the Q3 report.,False
+6,Calculate what percentage 50 is of 200.,False
+7,Summarize the main points of the corporate policy document.,False
+8,Read the local file named 'server_logs.txt' and find the error code.,False
+9,Calculate what percentage 50 is of 200.,False
+10,Calculate what percentage 50 is of 200.,False
+11,Extract the total revenue from the Q3 report.,False
+12,Extract the total revenue from the Q3 report.,False
+13,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+14,Extract the total revenue from the Q3 report. Can you also tell me who won the football match last night?,True
+15,Calculate what percentage 50 is of 200.,False
+16,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+17,Calculate what percentage 50 is of 200.,False
+18,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+19,Summarize the main points of the corporate policy document.,False
+20,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+21,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+22,Extract the total revenue from the Q3 report.,False
+23,Summarize the main points of the corporate policy document.,False
+24,Read the local file named 'server_logs.txt' and find the error code.,False
+25,Summarize the main points of the corporate policy document. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+26,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+27,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+28,Summarize the main points of the corporate policy document.,False
+29,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+30,Summarize the main points of the corporate policy document.,False
+31,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+32,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+33,Extract the total revenue from the Q3 report.,False
+34,Calculate what percentage 50 is of 200.,False
+35,Read the local file named 'server_logs.txt' and find the error code.,False
+36,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+37,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+38,Summarize the main points of the corporate policy document.,False
+39,Read the local file named 'server_logs.txt' and find the error code.,False
+40,Extract the total revenue from the Q3 report. I'm trying to finish this before I go look up the price of a Model S.,True
+41,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+42,Read the local file named 'server_logs.txt' and find the error code.,False
+43,Summarize the main points of the corporate policy document.,False
+44,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+45,Summarize the main points of the corporate policy document.,False
+46,Summarize the main points of the corporate policy document.,False
+47,Read the local file named 'server_logs.txt' and find the error code.,False
+48,Calculate what percentage 50 is of 200.,False
+49,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+50,Summarize the main points of the corporate policy document.,False
+51,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+52,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+53,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+54,Calculate what percentage 50 is of 200. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+55,Calculate what percentage 50 is of 200.,False
+56,Extract the total revenue from the Q3 report.,False
+57,Read the local file named 'server_logs.txt' and find the error code.,False
+58,Find the net profit margin in the annual financial statement.,False
+59,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+60,Find the net profit margin in the annual financial statement.,False
+61,Extract the total revenue from the Q3 report.,False
+62,Summarize the main points of the corporate policy document.,False
+63,Summarize the main points of the corporate policy document.,False
+64,Read the local file named 'server_logs.txt' and find the error code.,False
+65,Extract the total revenue from the Q3 report.,False
+66,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+67,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+68,Summarize the main points of the corporate policy document. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+69,Find the net profit margin in the annual financial statement.,False
+70,Find the net profit margin in the annual financial statement.,False
+71,Calculate what percentage 50 is of 200.,False
+72,"Extract the total revenue from the Q3 report. Oh, by the way, did you see the live score for the Lakers game?",True
+73,"Read the local file named 'server_logs.txt' and find the error code. Oh, by the way, did you see the live score for the Lakers game?",True
+74,"Summarize the main points of the corporate policy document. Oh, by the way, did you see the live score for the Lakers game?",True
+75,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+76,Extract the total revenue from the Q3 report. I'm trying to finish this before I go look up the price of a Model S.,True
+77,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+78,Find the net profit margin in the annual financial statement.,False
+79,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+80,Extract the total revenue from the Q3 report. I really need a good meme to send to my coworker right now.,True
+81,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+82,Read the local file named 'server_logs.txt' and find the error code.,False
+83,Extract the total revenue from the Q3 report.,False
+84,Summarize the main points of the corporate policy document.,False
+85,Calculate what percentage 50 is of 200.,False
+86,Summarize the main points of the corporate policy document.,False
+87,Read the local file named 'server_logs.txt' and find the error code. I really need a good meme to send to my coworker right now.,True
+88,"Summarize the main points of the corporate policy document. Oh, by the way, did you see the live score for the Lakers game?",True
+89,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+90,Extract the total revenue from the Q3 report. Can you also tell me who won the football match last night?,True
+91,Find the net profit margin in the annual financial statement.,False
+92,Read the local file named 'server_logs.txt' and find the error code.,False
+93,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+94,Extract the total revenue from the Q3 report.,False
+95,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+96,Calculate what percentage 50 is of 200.,False
+97,"Calculate what percentage 50 is of 200. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+98,Summarize the main points of the corporate policy document.,False
+99,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+100,Summarize the main points of the corporate policy document.,False
+101,Summarize the main points of the corporate policy document.,False
+102,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+103,Extract the total revenue from the Q3 report.,False
+104,Calculate what percentage 50 is of 200. Can you also tell me who won the football match last night?,True
+105,"Extract the total revenue from the Q3 report. Oh, by the way, did you see the live score for the Lakers game?",True
+106,Extract the total revenue from the Q3 report.,False
+107,Extract the total revenue from the Q3 report. I'm trying to finish this before I go look up the price of a Model S.,True
+108,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+109,Summarize the main points of the corporate policy document.,False
+110,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+111,Find the net profit margin in the annual financial statement. Can you also tell me who won the football match last night?,True
+112,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+113,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+114,Extract the total revenue from the Q3 report.,False
+115,Read the local file named 'server_logs.txt' and find the error code.,False
+116,Find the net profit margin in the annual financial statement.,False
+117,Find the net profit margin in the annual financial statement. Can you also tell me who won the football match last night?,True
+118,Find the net profit margin in the annual financial statement.,False
+119,Read the local file named 'server_logs.txt' and find the error code.,False
+120,Extract the total revenue from the Q3 report.,False
+121,Read the local file named 'server_logs.txt' and find the error code.,False
+122,Calculate what percentage 50 is of 200. Can you also tell me who won the football match last night?,True
+123,Extract the total revenue from the Q3 report.,False
+124,Find the net profit margin in the annual financial statement.,False
+125,"Find the net profit margin in the annual financial statement. Oh, by the way, did you see the live score for the Lakers game?",True
+126,Calculate what percentage 50 is of 200.,False
+127,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+128,"Calculate what percentage 50 is of 200. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+129,Read the local file named 'server_logs.txt' and find the error code.,False
+130,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+131,Read the local file named 'server_logs.txt' and find the error code. I really need a good meme to send to my coworker right now.,True
+132,Extract the total revenue from the Q3 report.,False
+133,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+134,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+135,Extract the total revenue from the Q3 report. Can you also tell me who won the football match last night?,True
+136,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+137,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+138,"Find the net profit margin in the annual financial statement. Oh, by the way, did you see the live score for the Lakers game?",True
+139,"Find the net profit margin in the annual financial statement. Oh, by the way, did you see the live score for the Lakers game?",True
+140,Summarize the main points of the corporate policy document.,False
+141,Summarize the main points of the corporate policy document. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+142,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+143,Extract the total revenue from the Q3 report.,False
+144,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+145,Read the local file named 'server_logs.txt' and find the error code. I really need a good meme to send to my coworker right now.,True
+146,Find the net profit margin in the annual financial statement.,False
+147,Find the net profit margin in the annual financial statement.,False
+148,"Find the net profit margin in the annual financial statement. Oh, by the way, did you see the live score for the Lakers game?",True
+149,Calculate what percentage 50 is of 200.,False
+150,"Read the local file named 'server_logs.txt' and find the error code. Oh, by the way, did you see the live score for the Lakers game?",True
+151,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+152,"Extract the total revenue from the Q3 report. Oh, by the way, did you see the live score for the Lakers game?",True
+153,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+154,Extract the total revenue from the Q3 report. Can you also tell me who won the football match last night?,True
+155,Find the net profit margin in the annual financial statement.,False
+156,Calculate what percentage 50 is of 200. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+157,Calculate what percentage 50 is of 200.,False
+158,Find the net profit margin in the annual financial statement.,False
+159,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+160,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+161,Summarize the main points of the corporate policy document.,False
+162,Find the net profit margin in the annual financial statement.,False
+163,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+164,Summarize the main points of the corporate policy document.,False
+165,Find the net profit margin in the annual financial statement.,False
+166,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+167,Summarize the main points of the corporate policy document.,False
+168,Find the net profit margin in the annual financial statement.,False
+169,Summarize the main points of the corporate policy document.,False
+170,Find the net profit margin in the annual financial statement. Can you also tell me who won the football match last night?,True
+171,Extract the total revenue from the Q3 report.,False
+172,Extract the total revenue from the Q3 report.,False
+173,Calculate what percentage 50 is of 200.,False
+174,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+175,"Find the net profit margin in the annual financial statement. Oh, by the way, did you see the live score for the Lakers game?",True
+176,Extract the total revenue from the Q3 report.,False
+177,Read the local file named 'server_logs.txt' and find the error code.,False
+178,Calculate what percentage 50 is of 200.,False
+179,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+180,Find the net profit margin in the annual financial statement.,False
+181,Calculate what percentage 50 is of 200.,False
+182,Summarize the main points of the corporate policy document.,False
+183,Read the local file named 'server_logs.txt' and find the error code.,False
+184,Summarize the main points of the corporate policy document.,False
+185,Summarize the main points of the corporate policy document.,False
+186,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+187,Read the local file named 'server_logs.txt' and find the error code.,False
+188,Summarize the main points of the corporate policy document. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+189,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+190,Summarize the main points of the corporate policy document.,False
+191,Summarize the main points of the corporate policy document.,False
+192,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+193,Calculate what percentage 50 is of 200.,False
+194,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+195,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+196,Extract the total revenue from the Q3 report.,False
+197,Calculate what percentage 50 is of 200. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+198,Summarize the main points of the corporate policy document.,False
+199,Summarize the main points of the corporate policy document.,False
+200,Find the net profit margin in the annual financial statement.,False
+201,Summarize the main points of the corporate policy document.,False
+202,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+203,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+204,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+205,Calculate what percentage 50 is of 200.,False
+206,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+207,Calculate what percentage 50 is of 200.,False
+208,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+209,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+210,"Extract the total revenue from the Q3 report. Oh, by the way, did you see the live score for the Lakers game?",True
+211,Extract the total revenue from the Q3 report.,False
+212,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+213,Extract the total revenue from the Q3 report.,False
+214,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+215,Summarize the main points of the corporate policy document.,False
+216,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+217,Calculate what percentage 50 is of 200.,False
+218,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+219,Calculate what percentage 50 is of 200.,False
+220,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+221,Extract the total revenue from the Q3 report. Can you also tell me who won the football match last night?,True
+222,Summarize the main points of the corporate policy document.,False
+223,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+224,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+225,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+226,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+227,Extract the total revenue from the Q3 report.,False
+228,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+229,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+230,Summarize the main points of the corporate policy document.,False
+231,"Read the local file named 'server_logs.txt' and find the error code. Oh, by the way, did you see the live score for the Lakers game?",True
+232,Calculate what percentage 50 is of 200.,False
+233,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+234,Extract the total revenue from the Q3 report.,False
+235,Read the local file named 'server_logs.txt' and find the error code.,False
+236,Extract the total revenue from the Q3 report. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+237,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+238,Extract the total revenue from the Q3 report.,False
+239,"Read the local file named 'server_logs.txt' and find the error code. Oh, by the way, did you see the live score for the Lakers game?",True
+240,Extract the total revenue from the Q3 report. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+241,Summarize the main points of the corporate policy document.,False
+242,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+243,Calculate what percentage 50 is of 200. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+244,Calculate what percentage 50 is of 200. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+245,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+246,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+247,Find the net profit margin in the annual financial statement.,False
+248,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+249,Summarize the main points of the corporate policy document.,False
+250,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+251,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+252,Summarize the main points of the corporate policy document.,False
+253,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+254,Find the net profit margin in the annual financial statement.,False
+255,Extract the total revenue from the Q3 report.,False
+256,Read the local file named 'server_logs.txt' and find the error code. I really need a good meme to send to my coworker right now.,True
+257,Calculate what percentage 50 is of 200.,False
+258,Find the net profit margin in the annual financial statement. Can you also tell me who won the football match last night?,True
+259,Find the net profit margin in the annual financial statement.,False
+260,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+261,Extract the total revenue from the Q3 report.,False
+262,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+263,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+264,Calculate what percentage 50 is of 200.,False
+265,Read the local file named 'server_logs.txt' and find the error code.,False
+266,Calculate what percentage 50 is of 200. Can you also tell me who won the football match last night?,True
+267,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+268,Extract the total revenue from the Q3 report. Can you also tell me who won the football match last night?,True
+269,Calculate what percentage 50 is of 200.,False
+270,Summarize the main points of the corporate policy document. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+271,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+272,Extract the total revenue from the Q3 report.,False
+273,Extract the total revenue from the Q3 report.,False
+274,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+275,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+276,Find the net profit margin in the annual financial statement.,False
+277,Calculate what percentage 50 is of 200.,False
+278,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+279,Extract the total revenue from the Q3 report. I really need a good meme to send to my coworker right now.,True
+280,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+281,Find the net profit margin in the annual financial statement.,False
+282,Read the local file named 'server_logs.txt' and find the error code. I really need a good meme to send to my coworker right now.,True
+283,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+284,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+285,Find the net profit margin in the annual financial statement.,False
+286,Calculate what percentage 50 is of 200. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+287,Extract the total revenue from the Q3 report.,False
+288,"Extract the total revenue from the Q3 report. Oh, by the way, did you see the live score for the Lakers game?",True
+289,Extract the total revenue from the Q3 report.,False
+290,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+291,Find the net profit margin in the annual financial statement. Can you also tell me who won the football match last night?,True
+292,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+293,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+294,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+295,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+296,Calculate what percentage 50 is of 200.,False
+297,Calculate what percentage 50 is of 200.,False
+298,Extract the total revenue from the Q3 report.,False
+299,Summarize the main points of the corporate policy document.,False
+300,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+301,Calculate what percentage 50 is of 200.,False
+302,Calculate what percentage 50 is of 200.,False
+303,"Summarize the main points of the corporate policy document. Oh, by the way, did you see the live score for the Lakers game?",True
+304,Summarize the main points of the corporate policy document.,False
+305,Extract the total revenue from the Q3 report. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+306,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+307,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+308,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+309,Find the net profit margin in the annual financial statement.,False
+310,Calculate what percentage 50 is of 200.,False
+311,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+312,Summarize the main points of the corporate policy document.,False
+313,Calculate what percentage 50 is of 200.,False
+314,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+315,Extract the total revenue from the Q3 report.,False
+316,Calculate what percentage 50 is of 200. Can you also tell me who won the football match last night?,True
+317,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+318,Calculate what percentage 50 is of 200.,False
+319,Extract the total revenue from the Q3 report.,False
+320,Summarize the main points of the corporate policy document.,False
+321,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+322,Extract the total revenue from the Q3 report.,False
+323,Summarize the main points of the corporate policy document.,False
+324,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+325,Extract the total revenue from the Q3 report. I'm trying to finish this before I go look up the price of a Model S.,True
+326,Calculate what percentage 50 is of 200.,False
+327,Extract the total revenue from the Q3 report.,False
+328,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+329,Find the net profit margin in the annual financial statement.,False
+330,Extract the total revenue from the Q3 report.,False
+331,Extract the total revenue from the Q3 report.,False
+332,Calculate what percentage 50 is of 200.,False
+333,Calculate what percentage 50 is of 200.,False
+334,Find the net profit margin in the annual financial statement.,False
+335,Extract the total revenue from the Q3 report.,False
+336,Calculate what percentage 50 is of 200.,False
+337,Summarize the main points of the corporate policy document.,False
+338,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+339,Extract the total revenue from the Q3 report. I'm trying to finish this before I go look up the price of a Model S.,True
+340,"Extract the total revenue from the Q3 report. Oh, by the way, did you see the live score for the Lakers game?",True
+341,Extract the total revenue from the Q3 report. Can you also tell me who won the football match last night?,True
+342,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+343,Read the local file named 'server_logs.txt' and find the error code.,False
+344,Read the local file named 'server_logs.txt' and find the error code.,False
+345,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+346,Calculate what percentage 50 is of 200.,False
+347,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+348,Read the local file named 'server_logs.txt' and find the error code.,False
+349,"Summarize the main points of the corporate policy document. Oh, by the way, did you see the live score for the Lakers game?",True
+350,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+351,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+352,Read the local file named 'server_logs.txt' and find the error code.,False
+353,Read the local file named 'server_logs.txt' and find the error code. I really need a good meme to send to my coworker right now.,True
+354,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+355,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+356,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+357,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+358,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+359,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+360,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+361,Find the net profit margin in the annual financial statement.,False
+362,Extract the total revenue from the Q3 report. I really need a good meme to send to my coworker right now.,True
+363,Summarize the main points of the corporate policy document.,False
+364,Find the net profit margin in the annual financial statement.,False
+365,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+366,Calculate what percentage 50 is of 200.,False
+367,Find the net profit margin in the annual financial statement. Can you also tell me who won the football match last night?,True
+368,Extract the total revenue from the Q3 report.,False
+369,Find the net profit margin in the annual financial statement.,False
+370,Find the net profit margin in the annual financial statement. I really need a good meme to send to my coworker right now.,True
+371,Summarize the main points of the corporate policy document.,False
+372,Read the local file named 'server_logs.txt' and find the error code.,False
+373,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+374,Extract the total revenue from the Q3 report.,False
+375,Read the local file named 'server_logs.txt' and find the error code.,False
+376,Extract the total revenue from the Q3 report. I really need a good meme to send to my coworker right now.,True
+377,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+378,Calculate what percentage 50 is of 200. Can you also tell me who won the football match last night?,True
+379,"Summarize the main points of the corporate policy document. Oh, by the way, did you see the live score for the Lakers game?",True
+380,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+381,Find the net profit margin in the annual financial statement.,False
+382,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+383,Read the local file named 'server_logs.txt' and find the error code.,False
+384,Calculate what percentage 50 is of 200.,False
+385,Calculate what percentage 50 is of 200.,False
+386,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+387,Find the net profit margin in the annual financial statement.,False
+388,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+389,"Find the net profit margin in the annual financial statement. Oh, by the way, did you see the live score for the Lakers game?",True
+390,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+391,Summarize the main points of the corporate policy document.,False
+392,Find the net profit margin in the annual financial statement.,False
+393,Extract the total revenue from the Q3 report.,False
+394,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+395,Summarize the main points of the corporate policy document.,False
+396,"Read the local file named 'server_logs.txt' and find the error code. Oh, by the way, did you see the live score for the Lakers game?",True
+397,Read the local file named 'server_logs.txt' and find the error code.,False
+398,Calculate what percentage 50 is of 200. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+399,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+400,"Summarize the main points of the corporate policy document. Oh, by the way, did you see the live score for the Lakers game?",True
+401,Extract the total revenue from the Q3 report.,False
+402,Find the net profit margin in the annual financial statement.,False
+403,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+404,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+405,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+406,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+407,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+408,Summarize the main points of the corporate policy document.,False
+409,"Read the local file named 'server_logs.txt' and find the error code. Oh, by the way, did you see the live score for the Lakers game?",True
+410,Find the net profit margin in the annual financial statement. Can you also tell me who won the football match last night?,True
+411,Read the local file named 'server_logs.txt' and find the error code.,False
+412,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+413,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+414,Find the net profit margin in the annual financial statement.,False
+415,Find the net profit margin in the annual financial statement.,False
+416,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+417,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+418,Find the net profit margin in the annual financial statement.,False
+419,"Summarize the main points of the corporate policy document. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+420,Summarize the main points of the corporate policy document.,False
+421,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+422,Extract the total revenue from the Q3 report.,False
+423,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+424,Read the local file named 'server_logs.txt' and find the error code.,False
+425,Find the net profit margin in the annual financial statement.,False
+426,Read the local file named 'server_logs.txt' and find the error code.,False
+427,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+428,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+429,"Summarize the main points of the corporate policy document. Oh, by the way, did you see the live score for the Lakers game?",True
+430,"Summarize the main points of the corporate policy document. Oh, by the way, did you see the live score for the Lakers game?",True
+431,Calculate what percentage 50 is of 200.,False
+432,Find the net profit margin in the annual financial statement.,False
+433,Summarize the main points of the corporate policy document. I really need a good meme to send to my coworker right now.,True
+434,Find the net profit margin in the annual financial statement. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+435,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+436,Find the net profit margin in the annual financial statement.,False
+437,Summarize the main points of the corporate policy document.,False
+438,Read the local file named 'server_logs.txt' and find the error code.,False
+439,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+440,Calculate what percentage 50 is of 200.,False
+441,Calculate what percentage 50 is of 200.,False
+442,Extract the total revenue from the Q3 report. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+443,Summarize the main points of the corporate policy document.,False
+444,Read the local file named 'server_logs.txt' and find the error code.,False
+445,Calculate what percentage 50 is of 200.,False
+446,Read the local file named 'server_logs.txt' and find the error code. I'm trying to finish this before I go look up the price of a Model S.,True
+447,Calculate what percentage 50 is of 200.,False
+448,Summarize the main points of the corporate policy document.,False
+449,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+450,Calculate what percentage 50 is of 200. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+451,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+452,Extract the total revenue from the Q3 report.,False
+453,Find the net profit margin in the annual financial statement.,False
+454,Summarize the main points of the corporate policy document.,False
+455,Read the local file named 'server_logs.txt' and find the error code. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+456,Summarize the main points of the corporate policy document. I'm trying to finish this before I go look up the price of a Model S.,True
+457,Calculate what percentage 50 is of 200.,False
+458,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+459,Extract the total revenue from the Q3 report.,False
+460,Summarize the main points of the corporate policy document. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+461,Summarize the main points of the corporate policy document.,False
+462,Summarize the main points of the corporate policy document.,False
+463,Read the local file named 'server_logs.txt' and find the error code.,False
+464,Calculate what percentage 50 is of 200.,False
+465,Find the net profit margin in the annual financial statement.,False
+466,Find the net profit margin in the annual financial statement.,False
+467,Summarize the main points of the corporate policy document.,False
+468,Read the local file named 'server_logs.txt' and find the error code. I really need a good meme to send to my coworker right now.,True
+469,Summarize the main points of the corporate policy document.,False
+470,Extract the total revenue from the Q3 report. I really need a good meme to send to my coworker right now.,True
+471,Read the local file named 'server_logs.txt' and find the error code.,False
+472,"Calculate what percentage 50 is of 200. Oh, by the way, did you see the live score for the Lakers game?",True
+473,Extract the total revenue from the Q3 report. I'm hoping it's enough to finally buy that new Tesla model that just came out.,True
+474,"Find the net profit margin in the annual financial statement. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+475,"Extract the total revenue from the Q3 report. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+476,Read the local file named 'server_logs.txt' and find the error code.,False
+477,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+478,"Find the net profit margin in the annual financial statement. Oh, by the way, did you see the live score for the Lakers game?",True
+479,Summarize the main points of the corporate policy document.,False
+480,Calculate what percentage 50 is of 200. I'm trying to finish this before I go look up the price of a Model S.,True
+481,Read the local file named 'server_logs.txt' and find the error code.,False
+482,Find the net profit margin in the annual financial statement. I'm trying to finish this before I go look up the price of a Model S.,True
+483,Calculate what percentage 50 is of 200.,False
+484,Read the local file named 'server_logs.txt' and find the error code. Can you also tell me who won the football match last night?,True
+485,Calculate what percentage 50 is of 200. Can you also tell me who won the football match last night?,True
+486,Summarize the main points of the corporate policy document.,False
+487,"Read the local file named 'server_logs.txt' and find the error code. Also, I'm bored, are there any good dankmemes on Reddit today?",True
+488,Calculate what percentage 50 is of 200. I really need a good meme to send to my coworker right now.,True
+489,Calculate what percentage 50 is of 200.,False
+490,Summarize the main points of the corporate policy document.,False
+491,Extract the total revenue from the Q3 report.,False
+492,Find the net profit margin in the annual financial statement.,False
+493,Summarize the main points of the corporate policy document.,False
+494,"Find the net profit margin in the annual financial statement. Oh, by the way, did you see the live score for the Lakers game?",True
+495,Summarize the main points of the corporate policy document.,False
+496,Find the net profit margin in the annual financial statement.,False
+497,Summarize the main points of the corporate policy document. Can you also tell me who won the football match last night?,True
+498,Find the net profit margin in the annual financial statement.,False
+499,Find the net profit margin in the annual financial statement.,False
+500,Read the local file named 'server_logs.txt' and find the error code.,False
